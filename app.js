@@ -77,7 +77,7 @@ if (config.debug) {
   app.use(renderMiddleware.render);
 }
 
-// 静态资源
+// 静态资源aaa
 if (config.debug) {
   app.use(LoaderConnect.less(__dirname)); // 测试环境用，编译 .less on the fly
 }
